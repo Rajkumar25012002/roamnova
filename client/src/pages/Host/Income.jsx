@@ -36,9 +36,7 @@ const Income = () => {
     ownerCarInRentList
       .filter((car) => new Date(car.dropDate) < new Date())
       .reduce((sum, car) => sum + Number(car.rentalAmount), 0);
-const displayValue= ownerCarInRentList.length>0?ownerCarInRentList.map((value, index) => {
-  return <TransactionCard value={value} key={index} />;
-}):<p className="no-transaction">No Transactions made</p>
+
   const TransactionCard = ({ value }) => {
     const customerName = useSelector(
       (state) => getUserDetailsById(state, value?.customerId).fullName
@@ -64,6 +62,14 @@ const displayValue= ownerCarInRentList.length>0?ownerCarInRentList.map((value, i
       </>
     );
   };
+  const displayValue =
+    ownerCarInRentList.length > 0 ? (
+      ownerCarInRentList.map((value, index) => {
+        return <TransactionCard value={value} key={index} />;
+      })
+    ) : (
+      <p className="no-transaction">No Transactions made</p>
+    );
   return (
     <Container>
       <h2>Your Income</h2>
@@ -101,7 +107,9 @@ const displayValue= ownerCarInRentList.length>0?ownerCarInRentList.map((value, i
           <h3>Your transactions ({ownerCarInRentList.length})</h3>
           {rentStatus === "pending" || userStatus === "pending" ? (
             <TransactionSkeleton value={2} />
-          ) : displayValue}
+          ) : (
+            displayValue
+          )}
         </div>
       </div>
     </Container>
@@ -112,7 +120,7 @@ const Container = styled.div`
   flex-direction: column;
   margin: 1rem;
   overflow-y: hidden;
-  .no-transaction{
+  .no-transaction {
     text-align: center;
   }
   .select-chart {
