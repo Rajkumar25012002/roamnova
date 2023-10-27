@@ -1,4 +1,3 @@
-import React from "react";
 import styled from "styled-components";
 import { Link, NavLink } from "react-router-dom";
 import { AiFillStar, AiFillEdit } from "react-icons/ai";
@@ -11,10 +10,9 @@ import {
 } from "../../features/carSlice";
 import { getRentCarsByCarId } from "../../features/rentalCarSlice";
 import formatDateTime from "../../utils/functions/formatDateTime";
-import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
+import Skeleton from "react-loading-skeleton";
 import DashBoardSkeleton from "./Skeletons/DashBoardSkeleton";
 const DashBoard = () => {
-  let rentDetailsForCar;
   let isBooked;
   const carStatus = useSelector(getCarStatus);
   const userStatus = useSelector(getUserStatus);
@@ -57,9 +55,7 @@ const DashBoard = () => {
         0
       )
     : 0;
-    const displayValue=carList.length>0?carList.map((value, index) => {
-      return <SingleCar key={index} value={value} />;
-    }):<p className="no-car">No cars listed</p>
+
   const SingleCar = ({ value }) => {
     const rentDetailsForCar = useSelector((state) =>
       getRentCarsByCarId(state, value.carId)
@@ -102,6 +98,14 @@ const DashBoard = () => {
       </div>
     );
   };
+  const displayValue =
+    carList.length > 0 ? (
+      carList.map((value, index) => {
+        return <SingleCar key={index} value={value} />;
+      })
+    ) : (
+      <p className="no-car">No cars listed</p>
+    );
   return (
     <Container>
       <div className="main-display">
@@ -145,7 +149,9 @@ const DashBoard = () => {
         <div className="listed-cars-container">
           {carStatus === "pending" || userStatus === "pending" ? (
             <DashBoardSkeleton value={4} />
-          ) : displayValue}
+          ) : (
+            displayValue
+          )}
         </div>
       </div>
     </Container>
@@ -158,7 +164,7 @@ const Container = styled.div`
   gap: 1rem;
   width: 100%;
   justify-content: center;
-  .no-car{
+  .no-car {
     text-align: center;
   }
   .main-display {

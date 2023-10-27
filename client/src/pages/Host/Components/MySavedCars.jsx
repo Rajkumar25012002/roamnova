@@ -6,20 +6,20 @@ import SingleCarCard from "../../User/Components/CarDisplayCard";
 import CarDisplaySkeleton from "../../User/Skeletons/CarCardSkeleton";
 const MySavedCars = () => {
   const { userDetails } = useOutletContext();
-  const SavedCars=(value)=>{
+  const SavedCars = ({ value }) => {
     const savedCarDetails = useSelector((state) =>
-    getCarDetailsById(state, value)
-  );
-  return (
-    <div >
-      {savedCarDetails == undefined ? (
-        <CarDisplaySkeleton value={1}  />
-      ) : (
-        <SingleCarCard value={savedCarDetails} />
-      )}
-    </div>
-  );
-  }
+      getCarDetailsById(state, value)
+    );
+    return (
+      <div>
+        {savedCarDetails == undefined ? (
+          <CarDisplaySkeleton value={1} />
+        ) : (
+          <SingleCarCard value={savedCarDetails} />
+        )}
+      </div>
+    );
+  };
   return (
     <SavedCarContainer>
       <div className="saved-car">
@@ -27,9 +27,11 @@ const MySavedCars = () => {
         <div className="saved-car-display">
           {userDetails?.savedCars &&
             userDetails.savedCars.map((value, index) => {
-             <SavedCars key={index} value={value.carId} />
+              return <SavedCars key={index} value={value} />;
             })}
-          {userDetails?.savedCars && <p style={{ margin: "5rem" }}>No Saved Cars</p>}
+          {!userDetails?.savedCars && (
+            <p style={{ margin: "5rem" }}>No Saved Cars</p>
+          )}
         </div>
       </div>
     </SavedCarContainer>
