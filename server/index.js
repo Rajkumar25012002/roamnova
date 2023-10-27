@@ -13,8 +13,8 @@ app.use(cookieParser());
 app.use(express.urlencoded({ extended: true }));
 app.use(
   cors({
-    // origin: "https://roamnova.netlify.app",
-    origin:"http://localhost:5173",
+    origin: "https://roamnova.netlify.app",
+    // origin:"http://localhost:5173",
     credentials: true,
   })
 );
