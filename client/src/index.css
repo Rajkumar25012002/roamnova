@@ -1,0 +1,148 @@
+:root {
+  /* font-family: Inter, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+  line-height: 1.5;
+  font-family: "Open Sans" sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+button {
+  cursor: pointer;
+}
+
+.primary-button {
+  border: none;
+  outline: none;
+  border-radius: 0.25rem;
+  background-color: rgb(40, 167, 69);
+  padding: 0.5rem;
+  font-size: 1rem;
+  color: white;
+  align-self: center;
+  transition: 0.2s ease-in-out;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.secondary-button {
+  border: none;
+  outline: none;
+  border-radius: 0.25rem;
+  background-color: transparent;
+  padding: 0.5rem;
+  border: 1px solid white;
+  font-size: 1rem;
+  color: white;
+  align-self: center;
+  transition: 0.2s ease-in-out;
+
+  &:hover {
+    background-color: rgba(255, 255, 255);
+    color: rgb(40, 167, 69);
+  }
+}
+
+.normal-button {
+  border: none;
+  outline: none;
+  border-radius: 0.25rem;
+  background-color: transparent;
+  padding: 0.5rem;
+  border: 1px solid rgb(40, 167, 69);
+  font-size: 1rem;
+  color: rgb(40, 167, 69);
+  align-self: center;
+  transition: 0.2s ease-in-out;
+
+  &:hover {
+    color: rgba(255, 255, 255);
+    background-color: rgb(40, 167, 69);
+  }
+}
+
+.negative-button {
+  border: none;
+  outline: none;
+  border-radius: 0.25rem;
+  background-color: transparent;
+  padding: 0.25rem;
+  border: 1px solid rgb(255, 0, 0);
+  font-size: 1rem;
+  color: rgb(255, 0, 0);
+  align-self: center;
+  transition: 0.2s ease-in-out;
+
+  &:hover {
+    color: rgba(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+  }
+}
+
+.positive-button {
+  border: none;
+  outline: none;
+  border-radius: 0.25rem;
+  background-color: transparent;
+  padding: 0.25rem;
+  border: 1px solid rgb(2, 132, 208);
+  font-size: 1rem;
+  color: rgb(2, 132, 208);
+  align-self: center;
+  transition: 0.2s ease-in-out;
+
+  &:hover {
+    color: rgba(255, 255, 255);
+    background-color: rgb(2, 132, 208);
+  }
+}
+
+select,
+textarea,
+input {
+  border: 2px solid #c2c1c1;
+  color: black;
+  outline: none;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  transition: all 0.2s ease-in-out;
+  &:focus {
+    border: 2px solid rgb(2, 132, 208);
+  }
+}

@@ -1,0 +1,70 @@
+.coupon {
+    display: flex;
+    background-color: #f9f9f9;
+}
+
+.left-column,
+.right-column {
+    flex: 1;
+    padding: 10px;
+}
+
+.coupon-code,
+.coupon-type,
+.coupon-discount,
+.coupon-limit,
+.coupon-includes,
+.coupon-description,
+.coupon-expiry {
+    display: flex;
+    align-items: center;
+    text-align: start;
+
+    &>p {
+        font-weight: 600;
+    }
+}
+
+
+.left-column,
+.right-column {
+    flex: 1;
+}
+
+.left-column {
+    margin-right: 20px;
+}
+
+.coupon-includes,
+.coupon-description,
+.coupon-expiry {
+    display: flex;
+    align-items: center;
+
+    &>p {
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+    .hide-column1,
+    .hide-column2,
+    .hide-column3 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .hide-column2,
+    .hide-column3 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 975px) {
+    .hide-column3 {
+        display: none;
+    }
+}

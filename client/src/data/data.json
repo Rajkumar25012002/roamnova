@@ -1,0 +1,349 @@
+{
+    "background": "assets/background.jpg",
+    "about-image": "assets/about-image.jpg",
+    "cars": [
+        {
+            "id": 0,
+            "img": "/assets/cars/baleno.jpg",
+            "name": "Baleno",
+            "category": "Hatchback",
+            "description": "A car hatchback is a versatile and compact vehicle type that features a rear door, typically hinged at the top, which provides access to a cargo area. This design allows for efficient use of space and easy loading and unloading of goods. Hatchbacks are known for their practicality, offering a balance between passenger comfort and storage capacity.",
+            "price": 5000,
+            "photos": [
+                "/assets/cars/baleno.jpg"
+            ]
+        },
+        {
+            "id": 1,
+            "img": "/assets/cars/i10_nios.jpg",
+            "name": "I10 Nios",
+            "category": "Hatchback",
+            "description": "A car hatchback is a versatile and compact vehicle type that features a rear door, typically hinged at the top, which provides access to a cargo area. This design allows for efficient use of space and easy loading and unloading of goods. Hatchbacks are known for their practicality, offering a balance between passenger comfort and storage capacity. They are often chosen for urban driving due to their maneuverability and fuel efficiency. With a rear seat that can be folded down, hatchbacks offer additional storage flexibility, making them an ideal choice for a wide range of lifestyles and needs.",
+            "price": 5500,
+            "photos": [
+                "/assets/cars/i10_nios.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "img": "/assets/cars/swift.jpg",
+            "name": "Swift",
+            "category": "Hatchback",
+            "description": "A car hatchback is a versatile and compact vehicle type that features a rear door, typically hinged at the top, which provides access to a cargo area. This design allows for efficient use of space and easy loading and unloading of goods. Hatchbacks are known for their practicality, offering a balance between passenger comfort and storage capacity.",
+            "price": 5700,
+            "photos": [
+                "/assets/cars/swift.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "img": "/assets/cars/jazz.jpg",
+            "name": "Jazz",
+            "category": "Hatchback",
+            "description": "A car hatchback is a versatile and compact vehicle type that features a rear door, typically hinged at the top, which provides access to a cargo area. This design allows for efficient use of space and easy loading and unloading of goods. Hatchbacks are known for their practicality, offering a balance between passenger comfort and storage capacity. They are often chosen for urban driving due to their maneuverability and fuel efficiency. With a rear seat that can be folded down, hatchbacks offer additional storage flexibility, making them an ideal choice for a wide range of lifestyles and needs.",
+            "price": 4900,
+            "photos": [
+                "/assets/cars/jazz.jpg"
+            ]
+        },
+        {
+            "id": 4,
+            "img": "/assets/cars/dzire.jpg",
+            "name": "Dzire",
+            "category": "Sedan",
+            "description": "A sedan is a classic automobile body style characterized by its four doors, separate compartments for passengers and cargo, and a closed roof. Known for its sleek and elegant design, a sedan offers comfortable seating for multiple passengers while maintaining a refined appearance.",
+            "price": 6000,
+            "photos": [
+                "/assets/cars/dzire.jpg"
+            ]
+        },
+        {
+            "id": 5,
+            "img": "/assets/cars/verna.jpg",
+            "name": "Verna",
+            "category": "Sedan",
+            "description": "A sedan is a classic automobile body style characterized by its four doors, separate compartments for passengers and cargo, and a closed roof. Known for its sleek and elegant design, a sedan offers comfortable seating for multiple passengers while maintaining a refined appearance. With a focus on practicality, sedans often provide a balanced blend of performance, fuel efficiency, and safety features, making them a popular choice for daily commuting and family transportation.",
+            "price": 6400,
+            "photos": [
+                "/assets/cars/verna.jpg"
+            ]
+        },
+        {
+            "id": 6,
+            "img": "/assets/cars/city.jpg",
+            "name": "City",
+            "category": "Sedan",
+            "description": "A sedan is a classic automobile body style characterized by its four doors, separate compartments for passengers and cargo, and a closed roof. Known for its sleek and elegant design, a sedan offers comfortable seating for multiple passengers while maintaining a refined appearance.",
+            "price": 6600,
+            "photos": [
+                "/assets/cars/city.jpg"
+            ]
+        },
+        {
+            "id": 7,
+            "img": "/assets/cars/virtus.jpg",
+            "name": "Virtus",
+            "category": "Sedan",
+            "description": "A sedan is a classic automobile body style characterized by its four doors, separate compartments for passengers and cargo, and a closed roof. Known for its sleek and elegant design, a sedan offers comfortable seating for multiple passengers while maintaining a refined appearance. With a focus on practicality, sedans often provide a balanced blend of performance, fuel efficiency, and safety features, making them a popular choice for daily commuting and family transportation.",
+            "price": 6100,
+            "photos": [
+                "/assets/cars/virtus.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "img": "/assets/cars/xuv700.jpg",
+            "name": "Xuv 700",
+            "category": "Mpv",
+            "description": "A Multi-Purpose Vehicle (MPV) is a versatile and spacious automobile designed to accommodate multiple passengers and cargo. Combining the practicality of a minivan with the driving dynamics of a sedan, MPVs offer a comfortable and flexible solution for families, group travel, and diverse lifestyle needs.",
+            "price": 7200,
+            "photos": [
+                "/assets/cars/xuv700.jpg"
+            ]
+        },
+        {
+            "id": 9,
+            "img": "/assets/cars/ertiga.jpg",
+            "name": "Ertiga",
+            "category": "Mpv",
+            "description": "A Multi-Purpose Vehicle (MPV) is a versatile and spacious automobile designed to accommodate multiple passengers and cargo. Combining the practicality of a minivan with the driving dynamics of a sedan, MPVs offer a comfortable and flexible solution for families, group travel, and diverse lifestyle needs. With ample seating capacity, customizable interior configurations, and often advanced entertainment and safety features, MPVs cater to a wide range of transportation requirements, making them a popular choice for those seeking a balance between functionality and comfort.",
+            "price": 7000,
+            "photos": [
+                "/assets/cars/ertiga.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "img": "/assets/cars/innova.jpg",
+            "name": "Innova",
+            "category": "Mpv",
+            "description": "A Multi-Purpose Vehicle (MPV) is a versatile and spacious automobile designed to accommodate multiple passengers and cargo. Combining the practicality of a minivan with the driving dynamics of a sedan, MPVs offer a comfortable and flexible solution for families, group travel, and diverse lifestyle needs.",
+            "price": 7400,
+            "photos": [
+                "/assets/cars/innova.jpg"
+            ]
+        },
+        {
+            "id": 11,
+            "img": "/assets/cars/kia.jpg",
+            "name": "Kia",
+            "category": "Mpv",
+            "description": "A Multi-Purpose Vehicle (MPV) is a versatile and spacious automobile designed to accommodate multiple passengers and cargo. Combining the practicality of a minivan with the driving dynamics of a sedan, MPVs offer a comfortable and flexible solution for families, group travel, and diverse lifestyle needs. With ample seating capacity, customizable interior configurations, and often advanced entertainment and safety features, MPVs cater to a wide range of transportation requirements, making them a popular choice for those seeking a balance between functionality and comfort.",
+            "price": 7800,
+            "photos": [
+                "/assets/cars/kia.jpg"
+            ]
+        }
+    ],
+    "filters": [
+        {
+            "filtername": "Car type",
+            "types": [
+                {
+                    "id": 1,
+                    "name": "Hatchback"
+                },
+                {
+                    "id": 2,
+                    "name": "Sedan"
+                },
+                {
+                    "id": 3,
+                    "name": "MPV"
+                },
+                {
+                    "id": 4,
+                    "name": "SUV"
+                },
+                {
+                    "id": 5,
+                    "name": "Subcompact SUV"
+                }
+            ]
+        },
+        {
+            "filtername": "Fuel type",
+            "types": [
+                {
+                    "id": 1,
+                    "name": "Petrol"
+                },
+                {
+                    "id": 2,
+                    "name": "Disel"
+                },
+                {
+                    "id": 3,
+                    "name": "Electric"
+                }
+            ]
+        },
+        {
+            "filtername": "Gear type",
+            "types": [
+                {
+                    "id": 1,
+                    "name": "Manual"
+                },
+                {
+                    "id": 2,
+                    "name": "Auto"
+                }
+            ]
+        },
+        {
+            "filtername": "Price",
+            "types": [
+                {
+                    "id": 1,
+                    "name": "Rs.2500 below"
+                },
+                {
+                    "id": 2,
+                    "name": "Rs.2500-Rs.5000"
+                },
+                {
+                    "id": 3,
+                    "name": "Rs.5000 above"
+                }
+            ]
+        },
+        {
+            "filtername": "Air Condition",
+            "types": [
+                {
+                    "id": 1,
+                    "name": "Yes"
+                },
+                {
+                    "id": 2,
+                    "name": "No"
+                }
+            ]
+        }
+    ],
+    "coupon": {
+        "optionsHead": [
+            {
+                "value": "car",
+                "label": "Car",
+                "name": "couponType"
+            },
+            {
+                "value": "user",
+                "label": "Users",
+                "name": "couponType"
+            },
+            {
+                "value": "trip",
+                "label": "Trip",
+                "name": "couponType"
+            },
+            {
+                "value": "holiday",
+                "label": "Holiday Specials",
+                "name": "couponType"
+            }
+        ],
+        "optionsType": {
+            "car": [
+                {
+                    "value": "Sedan",
+                    "label": "Sedan",
+                    "name": "couponFor"
+                },
+                {
+                    "value": "SUV",
+                    "label": "SUV",
+                    "name": "couponFor"
+                },
+                {
+                    "value": "SubCompact SUV",
+                    "label": "SubCompact SUV",
+                    "name": "couponFor"
+                },
+                {
+                    "value": "MPV",
+                    "label": "MPV",
+                    "name": "couponFor"
+                },
+                {
+                    "value": "HatchBack",
+                    "label": "HatchBack",
+                    "name": "couponFor"
+                }
+            ],
+            "user": [
+                {
+                    "value": "New",
+                    "label": "New users",
+                    "name": "couponFor"
+                },
+                {
+                    "value": "Loyal",
+                    "label": "Loyal users",
+                    "name": "couponFor"
+                },
+                {
+                    "value": "Referral",
+                    "label": "Referral Users",
+                    "name": "couponFor"
+                }
+            ],
+            "trip": [
+                {
+                    "value": "2",
+                    "label": "1+trip",
+                    "name": "couponFor"
+                },
+                {
+                    "value": "6",
+                    "label": "5+trip",
+                    "name": "couponFor"
+                },
+                {
+                    "value": "10",
+                    "label": "10+trip",
+                    "name": "couponFor"
+                }
+            ],
+            "holiday": [
+                {
+                    "value": "New Year",
+                    "label": "New Year",
+                    "name": "couponFor"
+                },
+                {
+                    "value": "Christmas",
+                    "label": "Christmas",
+                    "name": "couponFor"
+                },
+                {
+                    "value": "Easter",
+                    "label": "Easter",
+                    "name": "couponFor"
+                },
+                {
+                    "value": "Ramadan",
+                    "label": "Ramadan",
+                    "name": "couponFor"
+                },
+                {
+                    "value": "Diwali",
+                    "label": "Diwali",
+                    "name": "couponFor"
+                },
+                {
+                    "value": "Pongal",
+                    "label": "Pongal",
+                    "name": "couponFor"
+                },
+                {
+                    "value": "Vacation",
+                    "label": "Summer vacation",
+                    "name": "couponFor"
+                }
+            ]
+        }
+    }
+}
